@@ -1,0 +1,110 @@
+html {
+	font-size: 14px;
+}
+
+body {
+	background-color: #444; /* #444444 */
+	border: 5px solid #787878;
+
+	margin: 50px;
+
+	padding: 50px;
+
+	/*
+		Other ways to set margin
+		margin: X; // all 4 to X
+		margin-top: X; 
+		...
+		margin: x Y; // X top, bottom margin
+					 // Y left, right margin
+
+		margin: X Y Z;
+	*/
+} 
+
+p {
+	color: white;
+	font-size: 18px;
+	line-height: 22px;
+	/*
+		font: 14px/16px Helvetica, sans-serif;
+	*/
+}
+
+.main-title {
+	color: #fff;
+	font-style: italic;
+	text-align: center;
+	font-size: 3rem;
+	font-family: Georgia, serif;
+	font-weight: 300;
+
+	margin-bottom: 0;
+}
+
+
+.nav {
+	border-bottom: 2px solid #787878;
+
+	padding: 25px 0;
+
+	text-align: center;
+}
+
+.bottom-nav {
+	border-bottom: none;
+	border-top: 2px solid #787878;
+}
+
+.menu-link {
+	font-weight: bold;
+	color: #33b688;
+	font-size: 1.5rem;
+	font-family: Arial, sans-serif;
+
+	display: inline-block;
+	line-height: 14px;
+	border-right: 2px solid #787878;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+.menu-link:last-child {
+	border-right: none;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.menu-active {
+	color: #fff;
+	text-decoration: none;
+	pointer-events: none;
+}
+
+.menu-seperator {
+
+}
+
+.content-title {
+	font-weight: 600;
+	color: white;
+	font-size: 35px;
+	font-family: Arial, sans-serif;
+}
+
+.content-asset {
+	padding: 5px;
+	border: 1px solid #787878;
+	float: right;
+}
+
+
+
+/*.menu-seperator-character {
+	color: #787878;
+	margin: 0 10px;
+	font-size: 1.5rem;
+}*/
+
+
+
